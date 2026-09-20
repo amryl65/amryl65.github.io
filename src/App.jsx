@@ -41,6 +41,22 @@ function App() {
           </a>
         </div>
 
+        {/* Akaun Card */}
+        <div className="card akaun">
+          <div>
+            <h2>Prinsip Perakaunan</h2>
+            <p>Modul Pembelajaran, Latihan Interaktif, Nota</p>
+          </div>
+          <a 
+            href="https://amryl65.github.io/akaun_form_4/" 
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buka App
+          </a>
+        </div>
+
         {/* Coming Soon Card */}
         <div className="card coming-soon">
           <div className="badge">Baru</div>

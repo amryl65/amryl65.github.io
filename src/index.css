@@ -4,6 +4,7 @@
   --primary-yellow: #FFDE00;
   --primary-red: #FF3C38;
   --primary-blue: #0085FF;
+  --primary-green: #00D084;
   --bg-color: #F8F9FA;
   --border-color: #1A1A1A;
 }
@@ -94,6 +95,7 @@ body {
 
 .card.ekonomi::before { background-color: var(--primary-red); }
 .card.sejarah::before { background-color: var(--primary-blue); }
+.card.akaun::before { background-color: var(--primary-green); }
 .card.coming-soon::before { background-color: var(--primary-yellow); }
 
 .card:hover {
@@ -110,6 +112,7 @@ body {
 
 .card.ekonomi h2 { color: var(--primary-red); }
 .card.sejarah h2 { color: var(--primary-blue); }
+.card.akaun h2 { color: var(--primary-green); }
 
 .card p {
   font-size: 1.2rem;
