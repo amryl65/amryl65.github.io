@@ -57,6 +57,22 @@ function App() {
           </a>
         </div>
 
+        {/* Sains Card */}
+        <div className="card sains">
+          <div>
+            <h2>Sains SPM</h2>
+            <p>Nota Padat, Latihan Kuiz, Video Pembelajaran</p>
+          </div>
+          <a 
+            href="https://amryl65.github.io/ting-4-sains-app/" 
+            className="btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Buka App
+          </a>
+        </div>
+
         {/* Coming Soon Card */}
         <div className="card coming-soon">
           <div className="badge">Baru</div>

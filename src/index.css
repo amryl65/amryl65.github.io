@@ -5,6 +5,7 @@
   --primary-red: #FF3C38;
   --primary-blue: #0085FF;
   --primary-green: #00D084;
+  --primary-orange: #FF8A00;
   --bg-color: #F8F9FA;
   --border-color: #1A1A1A;
 }
@@ -96,6 +97,7 @@ body {
 .card.ekonomi::before { background-color: var(--primary-red); }
 .card.sejarah::before { background-color: var(--primary-blue); }
 .card.akaun::before { background-color: var(--primary-green); }
+.card.sains::before { background-color: var(--primary-orange); }
 .card.coming-soon::before { background-color: var(--primary-yellow); }
 
 .card:hover {
@@ -113,6 +115,7 @@ body {
 .card.ekonomi h2 { color: var(--primary-red); }
 .card.sejarah h2 { color: var(--primary-blue); }
 .card.akaun h2 { color: var(--primary-green); }
+.card.sains h2 { color: var(--primary-orange); }
 
 .card p {
   font-size: 1.2rem;
